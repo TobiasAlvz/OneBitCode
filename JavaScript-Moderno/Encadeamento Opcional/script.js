@@ -18,6 +18,8 @@ const user = {
   },
 };
 
+// Ele evita o print de erros, a "?" serve para verificar se a referencia é nula,
+// Se for nula, ele para e retorna.
 console.log(user.friends[0].phone?.ddd);
 console.log(user?.brothers?.length);
 
