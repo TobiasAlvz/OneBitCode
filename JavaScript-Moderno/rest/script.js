@@ -10,4 +10,4 @@ const rest = (...students) => {
   }, {});
 };
 
-console.log(rest("João", "Igor", "Marcos", "Geraldo"));
+console.log(rest("Joao", "Igor", "Marcos", "Geraldo"));
