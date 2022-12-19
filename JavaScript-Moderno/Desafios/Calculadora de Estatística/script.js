@@ -33,7 +33,7 @@ const median = (...numbers) => {
   }
   const firstMedian = orderedNumbers[middle - 1];
   const secondMedian = orderedNumbers[middle];
-  return average(firstMedian, secondMedian);
+  return simpleMedia(firstMedian, secondMedian);
 };
 
 console.log(`Mediana: ${median(2, 5, 99, 4, 42, 7)}`);
